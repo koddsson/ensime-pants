@@ -1,0 +1,26 @@
+(
+  :subprojects (
+    (
+      :name "project"
+      :module-name "project"
+      :depends-on-modules (
+      )
+      :compile-deps (
+	    "/Users/koddsson/Repos/pants-ensime/.pants.d/ivy/jars/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.4.jar"
+	    "/Users/koddsson/Repos/pants-ensime/.pants.d/ivy/jars/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar"
+	    "/Users/koddsson/Repos/pants-ensime/.pants.d/ivy/jars/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar"
+      )
+      :runtime-deps (
+            "/Users/koddsson/Repos/pants-ensime/.pants.d/ivy/jars/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.4.jar"
+            "/Users/koddsson/Repos/pants-ensime/.pants.d/ivy/jars/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar"
+            "/Users/koddsson/Repos/pants-ensime/.pants.d/ivy/jars/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar"
+      )
+      :source-roots (
+      )
+      :scala-version "Scala 2.10"
+      :reference-source-roots (
+      )
+      :target ".pants.d/ensime/ensime/EnsimeGen_ensime/project/out"
+    )
+  )
+)
